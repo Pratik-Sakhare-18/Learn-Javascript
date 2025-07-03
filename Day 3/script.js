@@ -78,3 +78,24 @@ console.log(comp5 != comp6)
 let comp7 = 10
 let comp8 = "10"
 console.log(comp7 !== comp8)
+
+// Logical Operators 
+// && , || 
+
+//  1 . &&
+// 1 + 1 = 1
+// 1 + 0 = 0
+// 0 + 1 = 0
+// 0 + 0 = 0
+
+// 2 . ||
+// 1 + 1 = 1
+// 1 + 0 = 1
+// 0 + 1 = 1
+// 0 + 0 = 0
+
+
+
+
+
+
