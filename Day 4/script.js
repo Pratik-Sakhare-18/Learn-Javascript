@@ -13,3 +13,5 @@ let f2 = parseInt(f2_str)
 let sum = f1 + f2
 console.log(sum)
 
+
+
