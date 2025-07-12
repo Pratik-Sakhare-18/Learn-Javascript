@@ -1,32 +1,27 @@
-let day = prompt("What day of the week is it today?")
+// looping : looping is use to print and retrive a multiple data
 
-switch (day) {
-    case "sunday":
-        console.log("Today is Sunday");
-        break;
 
-    case "monday":
-        console.log("Today is Monday");
-        break;
 
-    case "tuesday":
-        console.log("Today is Tuesday");
-        break;
 
-    case "wednesday":
-        console.log("Today is Wednesday");
-        break;
+// /1 . while loop
 
-    case "thursday":
-        console.log("Today is Thursday");
-        break;
+let no = 1;
 
-    case "friday":
-        console.log("Today is Friday");
-        break;
-
-    case "saturday":
-        console.log("Today is Saturday");
-        break;
-
+while(no <= 10)
+{
+    console.log(no);
+    no++;
 }
+
+
+//  print a even no to 0 to 100 using while loop
+
+let count = 0;
+
+while(count % 2 == 0)
+{
+    console.log(count);
+    count += 2;
+}
+
+
