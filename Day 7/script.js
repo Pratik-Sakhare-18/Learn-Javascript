@@ -18,7 +18,7 @@ while(no <= 10)
 
 let count = 0;
 
-while(count % 2 == 0)
+while(count <= 100)
 {
     console.log(count);
     count += 2;
