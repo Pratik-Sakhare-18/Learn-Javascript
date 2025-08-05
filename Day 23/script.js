@@ -5,7 +5,6 @@ let login = document.getElementById("btn");
 let form = document.getElementById("form");
 let errorcontainer = document.getElementById("error-container");
 
-
 form.addEventListener("submit", (e) => {
     e.preventDefault()
     let username = userName.value;
