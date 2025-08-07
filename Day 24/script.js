@@ -10,6 +10,7 @@ loaddata();
 
 async function loaddata1() {
     try {
+        
         let responce = await fetch("https://jsonplaceholder.typicode.com/users");
         let data = await responce.json();
         console.log(data);
