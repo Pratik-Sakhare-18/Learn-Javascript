@@ -6,6 +6,7 @@ async function loaddata() {
     console.log(data);
 }
 
+
 loaddata();
 
 async function loaddata1() {
